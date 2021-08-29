@@ -1,47 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>I Can Haz Cheeseburger?</title>
-    <link href="./src/css/main.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="솔라, 웨일의 청첩장">
+    <meta name="author" content="Solar, Whale">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+<!-- start from this example page <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">-->
+
+    <!-- Bootstrap core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>I Can Haz Cheeseburger?</h1>
-      </header>
-      <div class="layout">
-        <div class="col main">
-          <p>A lolcat is an image macro of one or more cats. The image's text is often idiosyncratic and grammatically incorrect, and is known as lolspeak.</p>
+    
+<header>
 
-          <p>Lolcat is a composite of two words, "lol" and "cat". "Lol" stands for "Laugh out Loud" or "Laughing out Loud"; hence, lolcats are intended to be funny and to include jokes. Lolcats images comprise a photo of a cat with a large caption characteristically set in a heavy sans serif font such as Impact or Arial Black. The image is, on occasion, digitally edited for effect.</p>
+</header>
 
-          <p>The caption generally acts as a speech balloon encompassing a comment from the cat, or as a description of the depicted scene. The caption is intentionally written with deviations from standard English spelling and grammar, featuring "strangely-conjugated verbs, but a tendency to converge to a new set of rules in spelling and grammar". The text parodies the grammar-poor patois stereotypically attributed to Internet slang. Frequently, lolcat captions take the form of phrasal templates. Some phrases have a known source, usually a well-known Internet meme, such as All your base are belong to us or Do not want, while others don't. The language of lolcats has also been likened to baby talk, however it draws on a variety of linguistic resources, not just the imitation of baby talk.</p>
-
-          <p><a class="read-more" href="#">Read more...</a></p>
-          <div class="hidden">
-            <p>Common themes include jokes of the form "Im in ur [noun], [verb]-ing ur [related noun]." Many lolcat images capture cats performing characteristically human actions or appearing to use modern technology, such as computers.</p>
-
-            <p>There are several well-known lolcat images and single-word captions that have spawned many variations and imitations, including "Ceiling Cat". Others include Fail (a cat with a slice of processed cheese on its face) and "I Can Has Cheezburger" (a portrait of a blue British Shorthair). Another popular format is "[Adjective] cat is [adjective/noun]."</p>
-          </div>
-
-          <p>Source: <a href="https://en.wikipedia.org/wiki/Lolcat">Wikipedia</a></p>
-        </div>
-        <div class="col sidebar">
-          <p><strong>Navigation</strong></p>
-          <ul>
-            <li>Home</li>
-            <li><a href="./photos.html">Photo Gallery</a></li>
-            <li><a href="http://icanhas.cheezburger.com">icanhas.cheezburger.com</a></li>
-          </ul>
-        </div>
+<main>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+<!--&gt;-->
+  <div class="card">
+    <img src="./src/img/main.jpg" class="img-fluid" alt="메인사진">
+  </div>
+  <div class="container marketing">
+    <div class="card text-center border-white">
+<!--      todo 원철 하트아이콘 송희로 대체!-->
+        <h2 class="text-lg-center">원철 & 송희 결혼합니다.</h2>
+        <span class="text-muted">INVITATION</span>
+        <div id="greeting" class="text-sm">
+          <p class="lead">초대 합니다.와주세요.</p>
+          <p class="lead">초대 합니다.감사합니다.</p>
       </div>
-      <footer>
-        &copy; 2020 Ceiling Cat
-      </footer>
     </div>
 
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./src/js/main.js"></script>
+    <hr class="featurette-divider">
+    <div class="row featurette text-center">
+      <div class="col-md-7 order-md-2">
+        <p class="lead">갤러리, 이미지 슬라이더 생기면 이 텍스트 지우기</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <div class="card text-center border-white">
+      <div class="col-md-7">
+        <h4 class="lead">찾아오시는 길</h4>
+      </div>
+      <div class="col-md-5 order-md-1">
+        지도와 주차안내 넣고 텍스트 지우기
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body text-center">
+        <h5 class="card-title">알리는 말씀</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">즐겁고 행복한 결혼식의 기쁨을 많은 분들과 함께 나누고 싶은 마음이 가득하지만, 모이기 어려운 시기가 계속 되어 고민 끝에 예정대로 결혼식을 진행합니다.</p>
+        <p class="card-text">혹시 예식에 참석하지 못하시더라도 전혀 부담 갖지 마시고, 멀리서 나마 저희 두 사람의 앞날을 위해 진심으로 축하해 주시면 감사하겠습니다.</p>
+        <p class="card-text">새로운 출발을 축복해 주시는 모든 분들께 감사드립니다. 저희 두 사람 앞으로 함께 걸으며 하루하루를 소중히 채워가겠습니다.</p>
+      </div>
+    </div>
+
+    <div class="card-body border-white">
+      <div>
+        <p>
+          <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            신랑, 신부에게 연락하기
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body container">
+            <div class="row">
+              <div class="col">
+                <p>신랑 정원철</p>
+                <a href="tel:01039452983" style="padding:3px 8px;margin-right:10px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/>
+                </a>
+                <a href="sms:01039452983" style="padding:3px 8px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios/30/000000/sms.png"/>
+                </a>
+              </div>
+              <div class="col">
+                <p>신부 박송희</p>
+                <a href="tel:01053399848" style="padding:3px 8px;margin-right:10px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/>
+                </a>
+                <a href="sms:01053399848" style="padding:3px 8px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios/30/000000/sms.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>
+          <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCall" aria-expanded="false" aria-controls="collapseExample">
+            혼주에게 연락하기
+          </button>
+        </p>
+        <div class="collapse" id="collapseCall">
+          <div class="card card-body container-fluid">
+            <div class="row">
+              <div class="col">
+                <p>신랑측 혼주 이금란</p>
+                <a href="tel:01039452983" style="padding:3px 8px;margin-right:10px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/>
+                </a>
+                <a href="sms:01039452983" style="padding:3px 8px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios/30/000000/sms.png"/>
+                </a>
+              </div>
+              <div class="col">
+                <p>신부측 혼주 박보열, 양순옥</p>
+                <a href="tel:01053399848" style="padding:3px 8px;margin-right:10px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/>
+                </a>
+                <a href="sms:01053399848" style="padding:3px 8px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios/30/000000/sms.png"/>
+                </a>
+              </div>
+              <div class="col">
+                <p>신부측 혼주 박보열, 양순옥</p>
+                <a href="tel:01053399848" style="padding:3px 8px;margin-right:10px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/>
+                </a>
+                <a href="sms:01053399848" style="padding:3px 8px;color:#333;width:34px">
+                  <img src="https://img.icons8.com/ios/30/000000/sms.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-body border-white text-center">
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#accountInfo" role="button" aria-expanded="false" aria-controls="collapseExample">
+          마음 전하실 곳
+        </a>
+      </p>
+      <div class="collapse" id="accountInfo">
+        <div class="card card-body">
+          <p>신부측 333-3333-3333 카카오뱅크 / 박송희</p>
+          <p>신랑측 333-3333-3333 카카오뱅크 / 정원철</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p>&copy; 2021 solarxwhale.</p>
+  </footer>
+</main>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./dist/bundle.js"></script>
   </body>
 </html>
