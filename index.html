@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="node_modules/photoswipe/dist/photoswipe.css"/>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -60,10 +60,57 @@
     <div><h2 class="text-lg-center">GALLERY</h2></div>
     <hr class="featurette-divider">
 
-    <div class="row featurette text-center">
-      <div class="col-md-5 order-md-1">
-        <img id="galleryMain" src="./src/img/gallery1.jpg" class="img-fluid" alt="메인사진">
-      </div>
+    <div id="ourGallery" class="pswp-gallery pswp-gallery--single-column">
+      <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
+         data-pswp-width="1669"
+         data-pswp-height="2500"
+         target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
+      </a>
+
+      <!-- cropped thumbnail -->
+      <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg"
+         data-pswp-width="1875"
+         data-pswp-height="2500"
+         data-cropped="true"
+         target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="" />
+      </a>
+
+      <a href="./src/img/gallery1.jpg"
+         data-pswp-width="3600" data-pswp-height="2400"
+         data-pswp-srcset="./src/img/gallery1.jpg 3000w"
+         data-cropped="true"
+         target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="">
+      </a>
+
+      <a href="./src/img/2.jpg"
+         data-pswp-width="2400" data-pswp-height="3600"
+         data-pswp-srcset="./src/img/2.jpg 3000w"
+         data-cropped="true"
+         target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="">
+      </a>
+
+      <!-- data-pswp-src with custom URL in href -->
+<!--      <a href="https://unsplash.com"-->
+<!--         data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"-->
+<!--         data-pswp-width="2500"-->
+<!--         data-pswp-height="1666"-->
+<!--         target="_blank">-->
+<!--        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" />-->
+<!--      </a>-->
+
+      <!-- Without thumbnail -->
+<!--      <a href="http://example.com"-->
+<!--         data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"-->
+<!--         data-pswp-width="2500"-->
+<!--         data-pswp-height="1668"-->
+<!--         target="_blank">-->
+<!--        No thumbnail-->
+<!--      </a>-->
+
     </div>
 
     <div class="card text-center border-white d-flex">
@@ -186,6 +233,19 @@
 </main>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="./dist/bundle.js"></script>
+<script type="module">
+  import PhotoSwipeLightbox from '/node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
+  import PhotoSwipe from '/node_modules/photoswipe/dist/photoswipe.esm.js';
+  const lightbox = new PhotoSwipeLightbox({
+    gallerySelector: '#ourGallery',
+    childSelector: 'a',
+    initialZoomLevel: 'fit',
+    secondaryZoomLevel: 'fit',
+    maxZoomLevel: 'fit',
+    pswpModule: PhotoSwipe
+  });
+  lightbox.init();
+</script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=146c46d39bb9fccf532296a564c529e7"></script>
 <script>
   var container = document.getElementById('map');
