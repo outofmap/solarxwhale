@@ -1,16 +1,11 @@
-# 스켈레톤 코드
+# Solar X Whale 청첩장
 
-A simple skeleton project for use in a [SitePoint article](https://www.sitepoint.com/bundle-static-site-webpack) on bundling a static site using Webpack.
+결혼식을 해야하는데 청첩장이 없어요!
 
-## Requirements
+## Development
+```shell
+npm install
+npm run dev
 
-* [Node.js](http://nodejs.org/)
-
-
-## Installation Steps (if applicable)
-
-1. Clone repo
-2. Run `npm install`
-3. Open `index.html` in your browser
-4. To start server `http-server`
-5. go to 'localhost:8080'
+# go to 'localhost:8080'
+```
