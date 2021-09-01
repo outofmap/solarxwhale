@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -17,9 +19,20 @@ h2 {
 }
 
 body {
-    background: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200 !important;
 }
 
-.solarxwhale {
+.logo {
     width: 50%;
+}
+
+.container {
+    max-width: 720px;
+}
+
+#hostName {
+    font-size: larger;
+    color: goldenrod;
+    font-weight: lighter;
 }
