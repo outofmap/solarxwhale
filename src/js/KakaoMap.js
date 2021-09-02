@@ -24,6 +24,18 @@ function loadMap() {
     const map = new kakao.maps.Map(container, options);
     const marker = new kakao.maps.Marker({position: position});
     marker.setMap(map);
+
+    var iwContent = '<div class="fw-normal fs-5 text-align-center">아모르 하우스<br>' +
+        '<a href="https://map.kakao.com/link/map/21301941" style="color:black" target="_blank">kakaoMap</a>'+
+        '</div>',
+        iwPosition = new kakao.maps.LatLng(lat, lng);
+
+    var infowindow = new kakao.maps.InfoWindow({
+        position : iwPosition,
+        content : iwContent
+    });
+
+    infowindow.open(map, marker);
 }
 
 export default KakaoMap
