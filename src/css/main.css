@@ -36,3 +36,13 @@ body {
     color: goldenrod;
     font-weight: lighter;
 }
+
+.blockTitle{
+  font-size: 1.4rem;
+  font-weight: bolder;
+  border-bottom: solid 1px;
+}
+
+.contentTitle {
+    font-weight: 400;
+}
