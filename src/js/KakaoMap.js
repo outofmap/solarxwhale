@@ -22,20 +22,31 @@ function loadMap() {
         level: 4
     };
     const map = new kakao.maps.Map(container, options);
-    const marker = new kakao.maps.Marker({position: position});
+
+    const imageSrc = './src/img/symbol/marker.png' // 마커이미지의 주소입니다
+    const imageSize = new kakao.maps.Size(42, 64) // 마커이미지의 크기입니다
+    const imageOption = {offset: new kakao.maps.Point(25, 60)};
+
+    const markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption)
+
+    const marker = new kakao.maps.Marker({
+        position: position,
+        image: markerImage
+    });
     marker.setMap(map);
 
-    var iwContent = '<div class="fw-normal fs-5 text-align-center">아모르 하우스<br>' +
-        '<a href="https://map.kakao.com/link/map/21301941" style="color:black" target="_blank">kakaoMap</a>'+
-        '</div>',
-        iwPosition = new kakao.maps.LatLng(lat, lng);
+    const content = '<div class="map-link">' +
+        '  <a href="https://map.kakao.com/link/map/21301941" target="_blank">' +
+        '    <span class="title">아모르 하우스</span>' +
+        '  </a>' +
+        '</div>';
 
-    var infowindow = new kakao.maps.InfoWindow({
-        position : iwPosition,
-        content : iwContent
+    new kakao.maps.CustomOverlay({
+        map: map,
+        position: position,
+        content: content,
+        yAnchor: 1
     });
-
-    infowindow.open(map, marker);
 }
 
 export default KakaoMap
