@@ -213,3 +213,55 @@ body {
     font-weight: bold;
     overflow: hidden;
 }
+
+/* contact */
+.contact {
+    padding: 0 50px;
+    margin-bottom: 40px;
+}
+
+.contact .title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4C6777;
+    margin-bottom: 15px;
+}
+
+.contact .sub {
+    font-size: 18px;
+    font-weight: 200;
+    color: #4C6777;
+}
+
+.contact .image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background: #4C6777;
+    margin: 5px;
+}
+
+.contact img {
+    width: 100%;
+    padding: 8px;
+}
+
+/* account */
+.account {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C6777;
+}
+
+/* footer */
+.footer {
+    margin: 100px 0;
+}
+
+.footer .run {
+    margin: 100px 0;
+    width: 80%;
+}
