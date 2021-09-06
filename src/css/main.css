@@ -141,3 +141,34 @@ body {
 .hostName .text-box {
     min-width: 151px;
 }
+
+/* small text */
+.small-title > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0 0 5px 40px;
+}
+
+.small-title .img-wrap {
+    width: 25px;
+}
+
+.small-title img {
+    width: 100%;
+}
+
+.small-title {
+    padding: 40px 0;
+}
+
+.small-title .text-wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 25px;
+    color: #4C6777;
+}
