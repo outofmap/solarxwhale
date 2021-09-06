@@ -1,33 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="박송희 ♥ 정원철 결혼합니다!">
     <meta name="author" content="Solar, Whale">
     <title>박송희 ♥ 정원철 결혼합니다!</title>
-    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="node_modules/photoswipe/dist/photoswipe.css"/>
+    <link rel="stylesheet" href="./src/css/main.css"/>
 </head>
-<body>
+<body class="d-flex justify-content-center">
+<main class="container m-0 p-0">
+    <div class="main-banner d-flex justify-content-center">
+        <div class="wrap-banner">
+            <img src="./src/img/wedding.png" alt="banner">
+        </div>
+    </div>
 
-<main class="container">
     <!-- #Getting Started -->
-    <div class="container py-3 mt-2">
-        <div>
-            <h1 class="text-lg-center">#Getting Started</h1>
-            <hr>
-        </div>
-        <div class="container">
-            <img class="container" src="./src/img/git_tree.png" alt="git_tree">
-        </div>
+    <div class="greet d-flex justify-content-center">
+        <img src="./src/img/greet.png" alt="greet">
+    </div>
+
+    <div class="container">
+        <img class="container" src="./src/img/git_tree.png" alt="git_tree">
     </div>
 
     <!-- #Invitation -->
     <div class="container py-3">
-        <div>
-            <h1 class="text-lg-center">#Invitation</h1>
-            <hr>
+        <div class="title-box">
+            <div class="title-wrap">
+                <span>Invitation</span>
+            </div>
+            <div class="line-box">
+                <div class="line">
+                    <div class="wrap">
+                        <hr>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="./src/img/symbol/invitation.png" alt="invitation">
+                </div>
+                <div class="line">
+                    <div class="wrap">
+                        <hr>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="card">
@@ -51,18 +71,43 @@
     </div>
 
     <!-- #Gallery -->
-    <div class="container py-3">
-        <div>
-            <h1 class="text-lg-center">#Gallery</h1>
-            <hr>
+    <div class="container m-0 p-0">
+        <div class="title-box">
+            <div class="title-wrap">
+                <span>Gallery</span>
+            </div>
+            <div class="line-box">
+                <div class="line">
+                    <div class="wrap">
+                        <hr>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="./src/img/symbol/gallery.png" alt="gallery">
+                </div>
+                <div class="line">
+                    <div class="wrap">
+                        <hr>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="ourGallery" class="pswp-gallery pswp-gallery--single-column container">
             <div class="row">
-                <img src="src/img/gallery/horizontal/main.jpg" class="img-fluid"/>
+                <div class="col">
+                    <a href="src/img/gallery/horizontal/main.jpg"
+                       data-pswp-width="3600"
+                       data-pswp-height="2400"
+                       data-pswp-srcset="src/img/gallery/horizontal/main.jpg 3000w"
+                       target="_blank">
+                        <img src="src/img/gallery/horizontal/main.jpg" class="img-fluid"/>
+                    </a>
+                </div>
+
             </div>
             <div class="row">
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/01.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -71,7 +116,7 @@
                         <img src="src/img/thumbnail/01.jpg" alt="" class="img-fluid"/>
                     </a>
                 </div>
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/02.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -80,7 +125,7 @@
                         <img src="src/img/thumbnail/02.jpg" alt="" class="img-fluid"/>
                     </a>
                 </div>
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/03.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -89,7 +134,7 @@
                         <img src="src/img/thumbnail/03.jpg" alt="" class="img-fluid"/>
                     </a>
                 </div>
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/04.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -124,7 +169,7 @@
                target="_blank">
             </a>
             <div class="row">
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/05.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -133,7 +178,7 @@
                         <img src="src/img/thumbnail/05.jpg" alt="" class="img-fluid"/>
                     </a>
                 </div>
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/06.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -142,7 +187,7 @@
                         <img src="src/img/thumbnail/06.jpg" alt="" class="img-fluid"/>
                     </a>
                 </div>
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/07.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -151,7 +196,7 @@
                         <img src="src/img/thumbnail/07.jpg" alt="" class="img-fluid"/>
                     </a>
                 </div>
-                <div class="col p-2">
+                <div class="col">
                     <a href="src/img/gallery/horizontal/08.jpg"
                        data-pswp-width="2400"
                        data-pswp-height="1600"
@@ -226,10 +271,26 @@
     </div>
 
     <!-- #Contact us -->
-    <div class="container py-3">
-        <div>
-            <h1 class="text-lg-center">#Contact us</h1>
-            <hr>
+    <div class="container">
+        <div class="title-box">
+            <div class="title-wrap">
+                <span>Contact us</span>
+            </div>
+            <div class="line-box">
+                <div class="line">
+                    <div class="wrap">
+                        <hr>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="./src/img/symbol/invitation.png" alt="contact">
+                </div>
+                <div class="line">
+                    <div class="wrap">
+                        <hr>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="card border-white d-flex">
@@ -293,13 +354,13 @@
                     <div class="col">
                         <p>신랑측 혼주 이금란</p>
                         <a href="tel:01046622983">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
-                    </a>
+                            <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
+                        </a>
                     </div>
                     <div class="col">
                         <p>신부측 혼주 박보열</p>
                         <a href="tel:01073039848">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
+                            <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
                         </a>
                     </div>
                     <div class="col"></div>
@@ -334,7 +395,7 @@
             </div>
         </div>
     </div>
-    <!-- /.container -->
+
 
     <!-- FOOTER -->
     <footer class="container pb-5">
