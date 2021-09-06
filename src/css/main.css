@@ -39,7 +39,7 @@ img {
     height: auto;
 }
 
-.greet > img{
+.greet > img {
     width: 40%;
     padding: 100px 0;
 }
@@ -59,12 +59,6 @@ body {
 
 .container {
     max-width: 720px;
-}
-
-#hostName {
-    font-size: larger;
-    color: goldenrod;
-    font-weight: lighter;
 }
 
 .blockTitle {
@@ -125,4 +119,25 @@ body {
     font-size: 40px;
     color: #4C6777;
     margin: 10px;
+}
+
+/* invitation */
+.invitationText {
+    padding: 50px 0;
+}
+
+.hostName {
+    padding: 50px 0;
+    letter-spacing: 5px;
+    font-size: 19px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.hostName img {
+    width: 50%;
+}
+
+.hostName .text-box {
+    min-width: 151px;
 }
