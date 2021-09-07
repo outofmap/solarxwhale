@@ -15,4 +15,6 @@ npm run dev
 # solarxwhale@gmail.com
 firebase login
 firebase deploy
+
+# https://solarxwhale-wedding.web.app
 ```
