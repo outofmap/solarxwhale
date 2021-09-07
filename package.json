@@ -11,11 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.0",
+    "firebase": "^9.0.1",
     "jquery": "^3.5.1",
     "lightbox2": "^2.11.3",
     "photoswipe": "git://github.com/dimsemenov/photoswipe.git#v5-beta"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
     "style-loader": "^3.2.1",

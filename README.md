@@ -9,3 +9,10 @@ npm run dev
 
 # go to 'localhost:8080'
 ```
+
+## Deploy
+```shell
+# solarxwhale@gmail.com
+firebase login
+firebase deploy
+```
