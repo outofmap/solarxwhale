@@ -255,6 +255,7 @@ body {
     font-size: 18px;
     font-weight: 300;
     color: #4C6777;
+    padding: 0 10px;
 }
 
 /* footer */
@@ -279,4 +280,12 @@ body {
 
 .contentColor {
     color: #4C6777;
+}
+
+.accountHolder {
+    font-weight: 400;
+    font-size: 12px;
+}
+.accountNum {
+    font-size : 12px;
 }
