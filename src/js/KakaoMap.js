@@ -23,7 +23,7 @@ function loadMap() {
     };
     const map = new kakao.maps.Map(container, options);
 
-    const imageSrc = './src/img/symbol/marker.png' // 마커이미지의 주소입니다
+    const imageSrc = './img/symbol/marker.png' // 마커이미지의 주소입니다
     const imageSize = new kakao.maps.Size(42, 64) // 마커이미지의 크기입니다
     const imageOption = {offset: new kakao.maps.Point(25, 60)};
 
