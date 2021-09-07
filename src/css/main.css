@@ -179,7 +179,7 @@ body {
 }
 
 .map-title > .main {
-    font-size: 30px;
+    font-size: 25px;
     color: #4C6777;
 }
 
@@ -264,4 +264,12 @@ body {
 .footer .run {
     margin: 100px 0;
     width: 80%;
+}
+
+.fontLight {
+    font-weight: 300;
+}
+
+#dateSize {
+    font-size : 60px;
 }
