@@ -1,4 +1,5 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 /*.bd-placeholder-img {*/
 /*    font-size: 1.125rem;*/
@@ -252,7 +253,7 @@ body {
 /* account */
 .account {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: #4C6777;
 }
 
@@ -272,4 +273,10 @@ body {
 
 #dateSize {
     font-size : 60px;
+    font-family: 'Secular One',  sans-serif;
+    color: #4C6777;
+}
+
+.contentColor {
+    color: #4C6777;
 }
