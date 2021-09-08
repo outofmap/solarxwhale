@@ -1,4 +1,4 @@
-import css from "../css/main.css";
+// import css from "../css/main.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'photoswipe/dist/photoswipe.css';
 
