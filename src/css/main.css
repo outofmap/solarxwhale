@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 /*.bd-placeholder-img {*/
@@ -51,7 +51,7 @@ h2 {
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 100 !important;
+    font-weight: 300 !important;
 }
 
 .logo {
@@ -66,10 +66,6 @@ body {
     font-size: 1.4rem;
     font-weight: bolder;
     border-bottom: solid 1px;
-}
-
-.contentTitle {
-    font-weight: 400;
 }
 
 /* photo */
@@ -182,6 +178,7 @@ body {
 .map-title > .main {
     font-size: 25px;
     color: #4C6777;
+    font-weight: 400;
 }
 
 .map-title > .sub {
@@ -266,10 +263,6 @@ body {
 .footer .run {
     margin: 100px 0;
     width: 80%;
-}
-
-.fontLight {
-    font-weight: 300;
 }
 
 #dateSize {
