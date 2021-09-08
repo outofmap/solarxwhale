@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --hot",
-    "build": "webpack"
+    "build": "webpack && webpack -c webpack.min.config.js"
   },
   "author": "solar.salt",
   "license": "ISC",
