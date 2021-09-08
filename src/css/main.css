@@ -52,14 +52,16 @@ h2 {
 body {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300 !important;
+    background: #333333 !important;
 }
 
 .logo {
     width: 50%;
 }
 
-.container {
-    max-width: 720px;
+main {
+    max-width: 720px !important;
+    background: white;
 }
 
 .blockTitle {
