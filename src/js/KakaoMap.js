@@ -19,7 +19,7 @@ function loadMap() {
     const container = document.getElementById('map');
     const options = {
         center: position,
-        level: 4
+        level: 5
     };
     const map = new kakao.maps.Map(container, options);
 

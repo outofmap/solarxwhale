@@ -276,9 +276,22 @@ body {
 }
 
 .accountHolder {
+    margin: 0 10px;
     font-weight: 400;
     font-size: 12px;
 }
 .accountNum {
     font-size : 12px;
+}
+
+.account .info-block {
+    margin: 5px;
+}
+
+.account .image-wrap {
+    width: 40px
+}
+
+.account img {
+    width: 100%
 }
