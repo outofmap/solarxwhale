@@ -71,7 +71,7 @@ main {
 }
 
 /* photo */
-.col {
+#ourGallery .col{
     margin: 0;
     padding: 1px;
 }
@@ -268,8 +268,8 @@ main {
 }
 
 #dateSize {
-    font-size : 60px;
-    font-family: 'Secular One',  sans-serif;
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
     color: #4C6777;
 }
 
@@ -282,8 +282,9 @@ main {
     font-weight: 400;
     font-size: 12px;
 }
+
 .accountNum {
-    font-size : 12px;
+    font-size: 12px;
 }
 
 .account .info-block {
