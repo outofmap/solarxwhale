@@ -6,8 +6,8 @@ function Gallery(config) {
         gallerySelector: '#ourGallery',
         childSelector: 'a',
         initialZoomLevel: 'fit',
-        secondaryZoomLevel: 'fit',
-        maxZoomLevel: 'fit',
+        secondaryZoomLevel: '1.5',
+        maxZoomLevel: '1.6',
         pswpModule: PhotoSwipe
     });
     lightbox.init();
