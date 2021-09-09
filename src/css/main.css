@@ -14,6 +14,11 @@
 /*        font-size: 3.5rem;*/
 /*    }*/
 /*}*/
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
 
 .ascii {
     color: #FEE500;
@@ -212,6 +217,23 @@ main {
     font-size: 14px;
     font-weight: bold;
     overflow: hidden;
+}
+
+.map-button {
+    margin: 10px 0;
+}
+
+.map-button a {
+    color: black;
+    padding-left: 10px;
+}
+
+.map-button img {
+    width: 28px;
+}
+
+.map-button button {
+    background-color:#FEE500;
 }
 
 /* contact */
