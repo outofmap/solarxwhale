@@ -47,7 +47,8 @@ img {
 
 .greet > img {
     width: 40%;
-    padding: 100px 0;
+    height: 40%;
+    margin: 100px 0;
 }
 
 h2 {
@@ -233,7 +234,7 @@ main {
 }
 
 .map-button button {
-    background-color:#FEE500;
+    background-color: #FEE500;
 }
 
 /* contact */
@@ -333,4 +334,10 @@ main {
     padding: 0 3px;
     color: #FFFFFF;
     font-size: 16px
+}
+
+button {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
 }
