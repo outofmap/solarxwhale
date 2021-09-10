@@ -18,7 +18,7 @@ import Firebase from "./Firebase";
 const els = document.getElementsByClassName("account-copy")
 Array.prototype.forEach.call(els, function (el) {
     el.addEventListener("click", function (e) {
-        copy(e.target.dataset.account, {message: "hello?"})
+        copy(e.target.dataset.account)
         Toastify({
             text: "복사되었습니다.",
             duration: 3000,
